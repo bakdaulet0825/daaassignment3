@@ -52,3 +52,6 @@ disconnected.txt: Undirected disconnected graph for testing MST on multiple conn
 Detailed analysis, complexity tables, theoretical proofs, and algorithm selection guidelines are available in REPORT.md.
 
 Generated visualization plots are saved under results/plots/.
+## AI Use Disclaimer
+
+The project was primarily developed independently by the author. AI tools were used occasionally for assistance with debugging, improving documentation, and formatting the report. The author was responsible for the implementation of the algorithms, testing, and analysis of benchmark results.
