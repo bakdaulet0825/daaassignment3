@@ -15,7 +15,7 @@ public class DSU {
     public int find(int x) {
         dsuOps++;
         if (parent[x] != x) {
-            parent[x] = find(parent[x]); // Path compression
+            parent[x] = find(parent[x]);
         }
         return parent[x];
     }
@@ -23,7 +23,7 @@ public class DSU {
     public boolean union(int x, int y) {
         int rx = find(x), ry = find(y);
         if (rx == ry) return false;
-        dsuOps++; // Successful union
+        dsuOps++;
         if (rank[rx] < rank[ry]) {
             parent[rx] = ry;
         } else if (rank[rx] > rank[ry]) {

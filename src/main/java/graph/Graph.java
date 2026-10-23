@@ -1,4 +1,4 @@
-package graph;
+package com.daaassignment3.graph;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
